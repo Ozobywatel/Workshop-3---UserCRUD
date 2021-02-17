@@ -47,11 +47,11 @@
                         <td>${user.username}</td>
                         <td>
                             <a href="<c:url value="/user/removeUser?id=${user.id}"/>"
-                               class="btn btn-danger rounded-0 text-light m-1">Usuń</a>
+                               class="btn btn-danger rounded-0 text-light m-1">Delete</a>
                             <a href="<c:url value="/user/details?id=${user.id}"/>"
-                               class="btn btn-info rounded-0 text-light m-1">Szczegóły</a>
+                               class="btn btn-info rounded-0 text-light m-1">Details</a>
                             <a href="<c:url value="/user/edit?id=${user.id}"/>"
-                               class="btn btn-warning rounded-0 text-light m-1">Edytuj</a>
+                               class="btn btn-warning rounded-0 text-light m-1">Edit</a>
                         </td>
 
                     </tr>
